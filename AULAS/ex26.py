@@ -1,0 +1,7 @@
+print(' ')
+nome = input('Diga uma frase: ').strip()
+nome=nome.upper()
+print('A palavra A apareceu na {}'.format(nome.count('A')))
+print('A letra A apareceu na {} posição'.format(nome.find('A')))
+print('A ultima letra A apareceu em {} posição'.format(nome.rfind('A')))
+print('')
